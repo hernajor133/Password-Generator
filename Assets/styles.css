@@ -1,0 +1,86 @@
+body {
+    background-color: green;
+    margin: 0;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    background-color: red;
+    padding: 30px 40px;
+    padding: 3rem;
+    border-radius: 5px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    font-weight: bold; 
+}
+
+.character-amount-container {
+    display: flex;
+    align-items: center;
+}
+
+.number-input {
+    width: 15px;
+}
+
+.symbol-input {
+    width: 15px;
+}
+
+.uppercase-input {
+    width: 15px;
+}
+
+.password-display {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 5px solid green;
+    height: 2rem;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+}
+
+.btn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background-color: #FFFFFF33;
+}
